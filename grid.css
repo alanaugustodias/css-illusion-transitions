@@ -1,0 +1,62 @@
+.grid {
+  width: 500px;
+  height: 500px;
+  background: transparent;
+  border-top: 4px solid rgb(75, 12, 12);
+  visibility: hidden;
+  opacity: 0;
+}
+
+.grid.line-1 {
+  top: 248px;
+  position: absolute;
+}
+
+.grid.line-2 {
+  right: 246.5px;
+  top: -2px;
+  position: absolute;
+  transform: rotate(90deg);
+}
+
+.grid.line-3 {
+  right: 175px;
+  top: 173px;
+  position: absolute;
+  transform: rotate(45deg);
+}
+
+.grid.line-4 {
+  left: 178px;
+  top: 176px;
+  position: absolute;
+  transform: rotate(-45deg);
+}
+
+.grid.line-5 {
+  right: 228px;
+  top: 93px;
+  position: absolute;
+  transform: rotate(67.5deg);
+}
+
+.grid.line-6 {
+  left: 234px;
+  top: 95px;
+  position: absolute;
+  transform: rotate(-67.5deg);
+}
+
+.grid.line-7 {
+  left: 96px;
+  top: 230px;
+  position: absolute;
+  transform: rotate(-22.5deg);
+}
+
+.grid.line-8 {
+  right: 95px;
+  top: 227px;
+  position: absolute;
+  transform: rotate(22.5deg);
+}

@@ -1,0 +1,26 @@
+.illusion-container.debug-mode .grid {
+  visibility: visible;
+  opacity: 0.4;
+  transition: visibility 0s, opacity 2s ease;
+}
+
+.illusion-container.debug-mode h2,
+.illusion-container.debug-mode p {
+  visibility: visible;
+  opacity: 0.4;
+  transition: visibility 0s, opacity 2s ease;
+}
+
+.illusion-container.debug-mode .slider {
+  background-color: transparent;
+  border: 2px solid yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.illusion-container.debug-mode .slider > .cross-point {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s, opacity 2s ease;
+}
